@@ -63,9 +63,11 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\BattleScreen.cs" />
     <Compile Include="Assets\Scripts\CameraMapToPlayer.cs" />
+    <Compile Include="Assets\Scripts\ClickableObject.cs" />
     <Compile Include="Assets\Scripts\DayClock.cs" />
     <Compile Include="Assets\Scripts\MouseMenuFunction.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\TextBox.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Projects/NoExpectations/Unity/NoExpectations/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
