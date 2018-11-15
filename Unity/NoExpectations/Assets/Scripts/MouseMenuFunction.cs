@@ -29,12 +29,10 @@ public class MouseMenuFunction : MonoBehaviour
         if (Physics.Raycast(ray.origin, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity)) //ray.origin //transform.position
         {
             clickObject = hit.collider.gameObject;
-            Debug.Log("Did Hit");
         }
         else
         {
             clickObject = null;
-            Debug.Log("Did not Hit");
         }
     }
 
@@ -66,7 +64,7 @@ public class MouseMenuFunction : MonoBehaviour
     {
         if (boxDescription != "" && boxDescription != null)
         {
-            GUI.Box(new Rect(boxLocation.x, boxLocation.y, 80, 20), boxDescription);
+            GUI.Box(new Rect(boxLocation.x, boxLocation.y, 200, 20), boxDescription);
         }
     }
 }

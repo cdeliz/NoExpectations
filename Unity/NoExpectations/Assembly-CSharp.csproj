@@ -61,13 +61,31 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\BattleScreen.cs" />
-    <Compile Include="Assets\Scripts\CameraMapToPlayer.cs" />
-    <Compile Include="Assets\Scripts\ClickableObject.cs" />
-    <Compile Include="Assets\Scripts\DayClock.cs" />
+    <Compile Include="Assets\Scripts\EventManager.cs" />
+    <Compile Include="Assets\Scripts\EventTriggerButton.cs" />
+    <Compile Include="Assets\Scripts\EventWatcher.cs" />
+    <Compile Include="Assets\Scripts\Hallway\CameraMapToPlayer.cs" />
+    <Compile Include="Assets\Scripts\Hallway\DayClock.cs" />
+    <Compile Include="Assets\Scripts\Hallway\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Monster.cs" />
     <Compile Include="Assets\Scripts\MouseMenuFunction.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Move.cs" />
+    <Compile Include="Assets\Scripts\MoveList.cs" />
+    <Compile Include="Assets\Scripts\MoveMenu.cs" />
+    <Compile Include="Assets\Scripts\Moves\Boast.cs" />
+    <Compile Include="Assets\Scripts\Moves\Compliment.cs" />
+    <Compile Include="Assets\Scripts\Moves\DisablePlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Moves\DisplayScreenText.cs" />
+    <Compile Include="Assets\Scripts\Moves\Jest.cs" />
+    <Compile Include="Assets\Scripts\Moves\PauseGame.cs" />
+    <Compile Include="Assets\Scripts\Moves\Perform.cs" />
+    <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\SceneLoader.cs" />
+    <Compile Include="Assets\Scripts\SomeButton.cs" />
     <Compile Include="Assets\Scripts\TextBox.cs" />
+    <Compile Include="Assets\Scripts\Unused\ClickableObject.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Projects/NoExpectations/Unity/NoExpectations/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
