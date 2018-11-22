@@ -24,6 +24,12 @@ ExportedObj
 .pdb
 .opendb
 .VC.db
+.ide
+.ide-shm
+.ide-wal
+
+# Visual Studio cache/options directory
+.vs/
 
 # Unity3D generated meta files
 .pidb.meta
