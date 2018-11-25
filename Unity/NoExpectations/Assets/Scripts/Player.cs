@@ -6,9 +6,10 @@ public class Player : MonoBehaviour {
 
     private struct statsSet
     {
-        int stat1;
-        int stat2;
-        int stat3;
+        int Handsomeness;
+        int Charisma;
+        int Quickwits;
+        int Interest;
     }
 
 	// Use this for initialization
